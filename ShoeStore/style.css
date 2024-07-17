@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    background-color: black;
+}
+.navTop {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.logo img {
+    height: 80px;
+    
+}
+
+.search input{
+    font-size: 15px;
+    margin : 0px 5px;
+    border-radius: 5px;
+}
+#Sbtn{
+    padding: 0px 5px;
+}
+#Sinput{
+    text-align: center;
+}
+.offer a
+{
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+    color: white;
+    text-decoration: coral;
+}
+.offer a:hover{
+    color: blue;
+}
+.navBottom
+{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+.list{
+    margin: 5px 30px;
+    cursor: pointer;
+}
+.slider
+{
+    background-image: url(/images/bg.jpg);
+}
+.sBg{
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    border-radius: 50%;
+    margin: 0px 0px 50px 350px;
+}
+.sImage{
+    margin-left: 200px;
+    display: inline;
+    z-index: 1;
+}
+.sItem
+{
+    height: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.name{
+    z-index: 1;
+    margin: 0px 0px 0px 40px;
+    position: absolute;
+    top: 0;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+.price{
+    margin: 0px 0px 0px 40px;
+    position: absolute;
+    right:20%;
+    top: 20%;
+    color: white;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    border: 5px solid gray;
+    padding: 20px;
+}
+.buy{
+    margin: 0px 0px 0px 40px;
+    position: absolute;
+    right:15%;
+    top: 50%;
+    color: rgb(182, 182, 212);
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    background-color: transparent;
+}
+.buy:hover{
+    cursor: pointer;
+    background-color: white;
+    color: red;
+}
